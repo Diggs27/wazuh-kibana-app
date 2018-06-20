@@ -65,6 +65,10 @@ Remove the app using kibana-plugin tool
 Install the app
 
     /usr/share/kibana/bin/kibana-plugin install https://packages.wazuh.com/wazuhapp/wazuhapp-3.x.x_6.x.x.zip
+    
+Restart Kibana for chagnes to take effect
+
+    systemctl restart kibana
 
 ## Contribute
 
